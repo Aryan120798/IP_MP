@@ -2,42 +2,9 @@
 <html>
 <head>
   <title>Categories</title>
-  <style>
-  body {margin:0;}
-
-  ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: sticky;
-    top: 0;
-    width: 100%;
-  }
-
-  .nav li {
-    float: left;
-  }
-
-  .nav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  .nav li a:hover:not(.active) {
-    background-color: #111;
-  }
-
-  .nav .active {
-    background-color: forestgreen;
-  }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body background="images\images.jpg">
+<body bgcolor=black>
   <div style="text-align:center;color:white;border-left: 20px solid lawngreen;background-color: forestgreen;border-radius: 5px;font-size:50px">
     Welcome to Build Your Rig.com
   </div>
@@ -62,36 +29,62 @@
     justify-content: center;
     align-items: center;
     width : calc(1200px - 30px);
-    height: calc(250px - 30px);
+    min-height: calc(250px - 30px);
     background: #000;
     margin: 20px auto;
   }
   .price .price_box{
     display:inline-block;
-    min-width : calc(200px - 30px);
-    min-height: calc(150px - 30px);
+    min-width : calc(350px - 30px);
+    min-height: calc(400px - 30px);
     float:left;
     overflow: hidden;
     vertical-align:center ;
-    background: #ff0;
     margin: 10px ;
   }
+  .price  a:visited {
+    display: block;
+    font-family: josefin sans,sans-serif;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .price .price_box a:link {
+    color: white;
+
+  }
+
+  .price .price_box .active {
+    color: white;
+  }
+
+}
   </style>
-  <div class="price">
-    <a href="https://www.buildpc.in/beginner"><div class="price_box">
-    <h1 align=center> ₹30K Beginner</h1>
+    <div class="price" >
+    <a href="https://www.buildpc.in/beginner">
+      <div class="price_box" style="background: url(images/imanbeg.jpg) no-repeat;">
+    <h1 align=center><br /><br /><br /><br /><br />
+      ₹30K Beginner
+    </h1>
     </div></a>
-    <a href="https://www.buildpc.in/amateur"><div class="price_box">
-    <h1 align=center>  ₹50K Amateur</h1>
+    <a href="https://www.buildpc.in/amateur">
+      <div class="price_box" style="background: url(images/good.jpg) no-repeat;">
+    <h1 align=center>  <br /><br /><br /><br /><br />₹50K Amateur</h1>
     </div>
-    <a href="https://www.buildpc.in/pro"><div class="price_box">
-    <h1 align=center>  ₹70K Pro</h1>
+    <a href="https://www.buildpc.in/pro">
+      <div class="price_box" style="background: url(images/superb.jpg) no-repeat;">
+    <h1 align=center> <br /><br /><br /><br /><br /> ₹70K Pro</h1>
     </div>
-    <a href="https://www.buildpc.in/expert"><div class="price_box">
-    <h1 align=center>  ₹100K Expert</h1>
+    <a href="https://www.buildpc.in/expert">
+      <div class="price_box" style="background: url(images/outstanding.jpg) no-repeat;">
+    <h1 align=center><br /><br /><br /><br /><br />  ₹100K Expert</h1>
     </div>
-    <a href="https://www.buildpc.in/mvp"><div class="price_box">
-    <h1 align=center>  ₹100K+ MVP</h1>
+    <a href="https://www.buildpc.in/mvp">
+      <div class="price_box" style="background: url(images/extreme.jpg) no-repeat;">
+    <h1 align=center> <br /><br /><br /><br /><br /> ₹100K+ MVP</h1>
     </div>
 </div>
 <style>
@@ -140,51 +133,6 @@
   </div></a>
 </div>
 <br /><br /><br /><br />
-  <style>
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    overflow:hidden;
-    color: orange;
-    text-align: center;
-    display:inline;
-  }
-
-  .footer ul{
-    display:inline;
-    margin:0;
-    padding:0;
-
-  }
-
-  .footer li{
-    float:left;
-    display:block;
-    padding:10px 10px;
-  }
-
-  .footer a:link {
-    color: orange;
-    text-decoration: none ;
-  }
-  .footer a:visited {
-    color: orange;
-    text-decoration: none ;
-  }
-
-  .footer a:hover {
-    color: white;
-    text-decoration: none ;
-  }
-  .footer li a.active {
-    color: white;
-    text-decoration: none ;
-  }
-
-</style>
 <footer>
   <div class="footer">
     <ul style ="list-style-type:none; display:inline;">

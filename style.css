@@ -1,4 +1,16 @@
-  body {margin:0;}
+  body {margin:0;
+  /* The image used */
+background-image: url("images/images.jpg");
+
+/* Set a specific height */
+min-height: 500px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
 
   ul.nav {
     list-style-type: none;
