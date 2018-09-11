@@ -1,134 +1,66 @@
-
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-     <link rel="stylesheet" type="text/css" href="style.css">
-      <title>Feedback Form </title>
+<html>
+  <head>
+    <title> Feedback</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<body background="images\images.jpg">
+  <div style="text-align:center;color:white;border-left: 20px solid lawngreen;background-color: forestgreen;border-radius: 5px;font-size:50px">
+    Welcome to Build Your Rig.com
+  </div>
 
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="keywords" content="Customer Survey Form Responsive Widget, Audio and Video players, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design"
-         />
-      <script>
-         addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
-      </script>
-      <!-- Meta tags -->
-      <!--stylesheets-->
-      <link href="css/style_feedback.css" rel='stylesheet' type='text/css' media="all">
-      <!--//style sheet end here-->
-      <link href="//fonts.googleapis.com/css?family=Barlow:300,400,500" rel="stylesheet">
-   </head>
-   <body>
-     <div style="text-align:center;color:white;border-left: 20px solid lawngreen;background-color: forestgreen;border-radius: 5px;font-size:50px">
-       Welcome to Build Your Rig.com
-     </div>
-
-     <ul class="nav" >
-       <li><a href="index.html">Index</a></li>
-       <li><a  href="homepage_mod.html">Home</a></li>
-       <li><a href="technews.html">Technews</a></li>
-       <li><a href="prebuilds.html">Prebuilds</a></li>
-       <li><a href="categories.html">Categories</a></li>
-       <li><a href="build.html">Build Your Rig</a></li>
-       <li style="float:right;"><a href="about.html">About</a></li>
-     </ul>
-      <h1 class="header-w3ls">
-         Feedback Form
-      </h1>
-      <!-- multistep form -->
-      <div class="main-bothside">
-         <form action="#" method="post">
-            <div class="form-group">
-               <div class="form-mid-w3ls">
-                  <p>Name</p>
-                  <input type="text" class="form-control" placeholder="" required="">
-               </div>
-               <div class="form-mid-w3ls">
-                  <p>Email</p>
-                  <input type="email" class="form-control" placeholder="" required="">
-               </div>
-            </div>
-            <div class="personal-info">
-               <p>Is this first time Building Your Rig?</p>
-               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="select4" value="option1" checked="">
-                  <label class="form-check-label">
-                  Yes
-                  </label>
-               </div>
-               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="select4" value="option2">
-                  <label class="form-check-label">
-                  No
-                  </label>
-               </div>
-            </div>
-            <div class="personal-info">
-               <p>Would you suggestion to your friends and colleague our website?</p>
-               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="select5" value="option1" checked="">
-                  <label class="form-check-label">
-                  Yes
-                  </label>
-               </div>
-               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="select5" value="option2">
-                  <label class="form-check-label">
-                  No
-                  </label>
-               </div>
-            </div>
-            <div class="personal-info">
-               <p>How satisfied are you with our company overall?</p>
-               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="select6" value="option1" checked="">
-                  <label class="form-check-label">
-                  Satisfied
-                  </label>
-               </div>
-               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="select6" value="option2">
-                  <label class="form-check-label">
-                  Undecided
-                  </label>
-               </div>
-               <div class="form-check">
-                  <input class="form-check-input" type="radio" name="select6" value="option2">
-                  <label class="form-check-label">
-                  Unsatisfied
-                  </label>
-               </div>
-            </div>
-            <div class="form-control-w3l">
-               <p>Do you have suggestion to improve our service?</p>
-               <textarea name="Message" placeholder="" required=""></textarea>
-            </div>
-            <div class="form-group">
-            </div>
-            <input type="submit" value="Submit">
-         </form>
+  <ul class="nav" >
+    <li><a href="index.html">Index</a></li>
+    <li><a  href="homepage_mod.html">Home</a></li>
+    <li><a href="technews.html">Technews</a></li>
+    <li><a href="prebuilds.html">Prebuilds</a></li>
+    <li><a href="categories.html">Categories</a></li>
+    <li><a href="build.html">Build Your Rig</a></li>
+  </ul>
+    <br />
+    <br />
+    <form autocomplete="on" style="margin-left:100px;margin-right:100px;color:white;">
+      <div >
+          <fieldset>
+            <legend>
+              Your feedback
+            </legend>
+            <label>Name</label>
+            <br />
+            <input type="text" placeholder="Ex. John Smith" required autofocus tabindex="1"/>
+            <br />
+            <label>Email</label>
+            <br />
+            <input type="email" required placeholder="johnsmith@abc.com" tabindex="2"/>
+            <br />
+            <label>Contact</label>
+            <br />
+            <input type="tel" placeholder="1234567890" tabindex="3"/>
+            <br />
+            <label>Comments</label>
+            <br />
+            <textarea placeholder="Your Comments Here" rows="10" cols="50" style="resize:none;" required  tabindex="4"></textarea>
+            <br />
+            <input type="submit" tabindex="5" >
+          </fieldset>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <footer>
-        <div class="footer">
-          <ul style ="list-style-type:none; display:inline;">
-           <li><a href ="aboutus.html">About Us</a></li>
-            <li><a>Terms and condition</a></li>
-            <li><a>Support US</a></li>
-            <li><a href="feedback.html" >Feedback</a></li>
-            <li><a href="request_form.html" >Spare parts form</a></li>
-            <li><a href = https://www.facebook.com/><img src="images/001-facebook.png"></a></li>
-            <li><a href = https://www.instagram.com/><img src="images/006-instagram.png"></a></li>
-            <li><a href = https://www.twitter.com/><img src="images/002-twitter.png"></a></li>
-            <li><a href = https://www.linkedin.com/><img src="images/005-linkedin.png"></a></li>
-            <li><a href = https://plus.google.com/discover><img src="images/003-google-plus.png"></a></li>
-            <li><a href = https://www.whatsapp.com/><img src="images/whatsapp.png"></a></li>
-          </ul>
-        </div>
-      </footer>
-   </body>
+    </form>
+	<footer>
+  <div class="footer">
+    <ul style ="list-style-type:none; display:inline;">
+      <li><a href ="aboutus.html">About Us</a></li>
+      <li><a>Terms and condition</a></li>
+      <li><a>Support US</a></li>
+      <li><a class="active" href="feedback.html" >Feedback</a></li>
+      <li><a href="request_form.html" >Spare parts form</a></li>
+      <li><a href = https://www.facebook.com/><img src="images/001-facebook.png"></a></li>
+      <li><a href = https://www.instagram.com/><img src="images/006-instagram.png"></a></li>
+      <li><a href = https://www.twitter.com/><img src="images/002-twitter.png"></a></li>
+      <li><a href = https://www.linkedin.com/><img src="images/005-linkedin.png"></a></li>
+      <li><a href = https://plus.google.com/discover><img src="images/003-google-plus.png"></a></li>
+      <li><a href = https://www.whatsapp.com/><img src="images/whatsapp.png"></a></li>
+    </ul>
+  </div>
+</footer>
+  </body>
 </html>
